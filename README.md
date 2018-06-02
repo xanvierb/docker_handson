@@ -24,18 +24,7 @@ In de map `opdracht_1` vind je een een jar-bestand. Het is de bedoeling dat je d
 
 ## opdracht 3
 
-
-Speciaal voor de Microsoft fanboys is er deze laatste oefening. Zet voor deze images containers op:
-
-- https://hub.docker.com/r/xanvier/contactsapi/
-- https://hub.docker.com/r/xanvier/angularfrontend/
-- https://hub.docker.com/r/xanvier/qmysqlserver/
-
-Contactsapi betreft een .NET Core api die draait op port 5000. De angularfrontend image is op basis van een nginx container en draait op port 80. De qmysqlserver is een mysql container en draait op port 3306. 
-
-Dit is alle informatie de je nodig zou moeten hebben. Succes!
-
-
+De vorige opdrachten waren een mooie inkomer voor de volgende opdracht. In deze opdracht gaan we een applicatie draaien in een container die verbinding maakt met de Linux X server. Hiermee kun je GUI applicatie geisoleerd draaien en je systeem zo 'schoon' mogelijk houden.
 
 
 
