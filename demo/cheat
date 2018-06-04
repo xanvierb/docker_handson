@@ -1,2 +1,0 @@
-sudo docker build -t gui-app .
-sudo docker run --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" gui-app
