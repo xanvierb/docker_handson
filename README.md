@@ -22,6 +22,9 @@ In de map `opdracht_1` vind je een een jar-bestand. Het is de bedoeling dat je d
 4. Pas het image dusdanig aan dat Nginx op port 80 draait, maak gebruik van de `interactive shell` en het `commit` commando
 5. Maak een docker hub account en zet daar je nieuw gemaakte image op.
 
+## Bonus: 
+Als je klaar bent met deze opgave zal de rest van de presentatie volgen. je kunt, als je nu tijd over hebt een MySQL container opspinnen en nadenken hoe je om kunt gaan met het persisteren van data. Denk er ook over na dat een container in principe op ieder moment uit mag gaan en opnieuw kan opstarten.
+
 ## opdracht 3
 
 De vorige opdrachten waren een mooie inkomer voor de volgende opdracht. In deze opdracht gaan we een applicatie draaien in een container die verbinding maakt met de Linux X server. Hiermee kun je GUI applicatie geisoleerd draaien en je systeem zo 'schoon' mogelijk houden.
