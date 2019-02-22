@@ -1,33 +1,27 @@
 # docker_handson
-Hands-on sessie over Docker. 
+Hands-on session on Docker. 
 
-## Voorbereiding
-Voor deze hands-on sessie heb je `docker-ce` nodig.
+## Preperation
+For this handson you'll need `docker-ce`.
 
-## Opdracht 0
-In opdracht 0 heb je kunnen zien hoe je met Docker in de basis werkt. Je kunt dit nogmaals doen of je kunt doorgaan naar opdracht 1 waar je, in essentie, dezelfde kennis nodig hebt.
+## Assignment 0
+In this assignment you'll see how Docker operates in it's basics. Create an image from the files in folder named `opdracht_0` and run that image. View the website that's on it.  
 
 ## Opdracht 1
-In de map `opdracht_1` vind je een een jar-bestand. Het is de bedoeling dat je deze jar in een container gaat draaien.
+In the folder `opdracht_1` you can find a jar-file. This file has to run inside a container.
 
-1. Vind een geschikt basis image op [https://hub.docker.com/](https://hub.docker.com/).
-2. Schrijf de docker file en bouw het image op.
-3. Start het image en kijk of je de applicatie kan benaderen op poort `8080` en pad `/list`.
+1. Find a appropriate base image on [https://hub.docker.com/](https://hub.docker.com/).
+2. Write a docker file and build the image.
+3. Start the container and check if the application is available on port `8080` at the path `/list`. (over http)
 
 ## Opdracht 2
 
-1. Haal voor deze opdracht [dit image](https://hub.docker.com/r/xanvier/secret/) naar binnen.
-2. Dit image is gebaseerd op de [Nginx](https://hub.docker.com/_/nginx/) image. Er draait dus een webserver op.
-3. Het is de bedoeling om de website die hier op draait, te laten opereren op poort 8080 met port forwarding in het run commando.
-4. Pas het image dusdanig aan dat Nginx op port 80 draait, maak gebruik van de `interactive shell` en het `commit` commando
-5. Maak een docker hub account en zet daar je nieuw gemaakte image op.
+1. For this assignment get [this image](https://hub.docker.com/r/xanvier/secret/).
+2. The image is based on the [Nginx](https://hub.docker.com/_/nginx/) image. So it is running a webserver.
+3. You have to run a container based on this image run on port 8080 and use port forwarding in the run command.
+4. Change the image such that Nginx runs on port 80, make use of the `interactive shell` and the `commit` command.
+5. Create a docker hub account and put your newly created image there.
 
 ## Bonus opdracht
-Als je klaar bent met deze opgave zal de rest van de presentatie volgen. je kunt, als je nu tijd over hebt een MySQL container opspinnen en nadenken hoe je om kunt gaan met het persisteren van data. Denk er ook over na dat een container in principe op ieder moment uit mag gaan en opnieuw kan opstarten.
-
-## opdracht 3
-
-De vorige opdrachten waren een mooie inkomer voor de volgende opdracht. In deze opdracht gaan we een applicatie draaien in een container die verbinding maakt met de Linux X server. Hiermee kun je GUI applicatie geisoleerd draaien en je systeem zo 'schoon' mogelijk houden.
-
-1. Zet een IDE (bijvoorbeeld code of Intellij - of een andere GUI applicatie) om naar een gecontaineriseerde applicatie.
+Spin up a MySQL container and think (google) how you can solve the persistence problem we've discussed earlier in the presentation. Think about the fact that a container can shutdown and reboot every moment.
 
